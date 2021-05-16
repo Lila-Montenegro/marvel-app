@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { HashRouter } from "react-router-dom";
+
 import Header from "../components/Header";
 
 export default class Home extends Component {
@@ -7,6 +9,12 @@ export default class Home extends Component {
   }
 
   render() {
-    return <Header />;
+    return (
+      <HashRouter>
+        <div>
+          <Header />
+        </div>
+      </HashRouter>
+    );
   }
 }
