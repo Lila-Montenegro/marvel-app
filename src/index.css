@@ -1,13 +1,135 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Axiforma";
+  font: 500 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "Marvel";
+  src: local("Marvel"), url(./assets/fonts/Marvel/MarvelRegular-Dj83.ttf);
+}
+@font-face {
+  font-family: "Axiforma";
+  src: local("Axiforma"),
+    url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Black.otf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: local("Axiforma"),
+    url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Bold.otf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Bold\ Italic.otf);
+  font-style: italic;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Book.otf);
+  font-style: oblique;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Book\ Italic.otf);
+  font-style: oblique, italic;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ ExtraBold.otf);
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ ExtraBold\ Italic.otf);
+  font-style: italic;
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Heavy.otf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Heavy\ Italic.otf);
+  font-style: italic;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Italic.otf);
+  font-style: italic;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Light.otf);
+  font-weight: lighter;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Light\ Italic.otf);
+  font-weight: lighter;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Medium.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Medium\ Italic.otf);
+  font-style: italic;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Regular.otf);
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ SemiBold.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ SemiBold\ Italic.otf);
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Thin.otf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Axiforma";
+  src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Thin\ Italic.otf);
+  font-style: italic;
+  font-weight: 100;
 }

@@ -1,0 +1,99 @@
+.login-form {
+  margin-top: 12rem;
+  margin-left: 10rem;
+}
+
+h2.bem-vindo {
+  font-size: 2rem;
+  font-family: "Axiforma";
+  font-weight: bold;
+  color: red;
+
+  margin-bottom: 0;
+}
+
+.acesse {
+  font-family: "Axiforma";
+  font-size: 1.33rem;
+  color: #84848d;
+  font-weight: lighter;
+}
+
+form {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+::placeholder {
+  font-family: "Axiforma";
+  color: #d1d1d6;
+  font-size: 1.466rem;
+}
+
+.userData {
+  width: 21rem;
+  height: 2rem;
+  padding: 12px 20px;
+  margin: 8px 0;
+
+  font-size: 1.466rem;
+  font-family: "Axiforma";
+
+  display: block;
+
+  border-radius: 2rem;
+}
+
+input[type="password"] {
+  margin-bottom: 1.5rem;
+}
+
+.save-login {
+  font-family: "Axiforma";
+  color: white;
+}
+
+.forgot-password {
+  margin-left: 8rem;
+  font-family: "Axiforma";
+  text-decoration: none;
+  color: white;
+}
+
+.forgot-password:hover {
+  color: red;
+}
+
+.forgot-password-line {
+  color: red;
+  margin-top: -0.2rem;
+  margin-right: 100%;
+  margin-left: 15.5rem;
+  width: 7rem;
+}
+
+.botao-login {
+  width: 24rem;
+  height: 4rem;
+
+  font-family: "Axiforma";
+  font-size: 1.8rem;
+  color: white;
+
+  margin: 1.5rem 0;
+  border-radius: 2rem;
+  display: block;
+  background-color: red;
+}
+
+.no-login {
+  padding-top: 10rem;
+  margin-left: 2.5rem;
+  font-family: "Axiforma";
+  color: white;
+}
+
+.highlight {
+  text-decoration: none;
+  color: red;
+}
