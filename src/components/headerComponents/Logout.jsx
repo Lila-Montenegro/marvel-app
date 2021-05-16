@@ -10,6 +10,8 @@ export default (props) => (
       alt="profile picture"
       className="profile-picture"
     />
-    <Link className="logout-action">sair</Link>
+    <Link to="/" className="logout-action">
+      sair
+    </Link>
   </div>
 );

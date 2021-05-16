@@ -9,7 +9,7 @@
     background-color: black;
   }
   100% {
-    background-image: linear-gradient(to right, black, black, transparent),
+    background-image: linear-gradient(to right, black, 89%, transparent),
       url("../assets/images/bg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,7 +20,7 @@
 body {
   animation-name: bg-image;
   animation-duration: 6s;
-  background-image: linear-gradient(to right, black, black, transparent),
+  background-image: linear-gradient(to right, black, 89%, transparent),
     url("../assets/images/bg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;

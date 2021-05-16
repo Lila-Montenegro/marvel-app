@@ -5,13 +5,13 @@ import "./Nav.css";
 export default (props) => (
   <div className="nav-bar">
     <nav>
-      <Link to="/chars" className="nav-item">
+      <Link to="/home/chars" className="nav-item">
         Personagens
       </Link>
-      <Link to="/movies" className="nav-item">
+      <Link to="/home/movies" className="nav-item">
         Filmes
       </Link>
-      <Link to="/hqs" className="nav-item">
+      <Link to="/home/hqs" className="nav-item">
         HQs
       </Link>
     </nav>

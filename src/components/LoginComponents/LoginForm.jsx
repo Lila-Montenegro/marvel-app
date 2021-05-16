@@ -45,7 +45,7 @@ export default class LoginForm extends Component {
         <button
           className="botao-login"
           onClick={() => {
-            window.location.assign("/#/chars");
+            window.location.assign("/#/home");
           }}
         >
           Entrar
