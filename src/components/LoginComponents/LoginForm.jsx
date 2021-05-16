@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./LoginForm.css";
-import { Link } from "react-router-dom";
 
 export default class LoginForm extends Component {
   state = {
@@ -46,7 +45,7 @@ export default class LoginForm extends Component {
         <button
           className="botao-login"
           onClick={() => {
-            window.location.assign("/#/home");
+            window.location.assign("/#/chars");
           }}
         >
           Entrar

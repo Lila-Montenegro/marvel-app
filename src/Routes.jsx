@@ -11,7 +11,7 @@ import HQs from "./components/HQs";
 export default (props) => (
   <Switch>
     <Route exact path="/" component={Login} />
-    <Route path="/home" component={Home} />
+    <Route path="/chars" component={Home} />
     <Redirect from="*" to="/login" />
   </Switch>
 );
