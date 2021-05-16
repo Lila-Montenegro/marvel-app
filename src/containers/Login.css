@@ -1,19 +1,25 @@
 @keyframes bg-image {
   0% {
-    background-color: black, url("");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 300% 50%;
   }
   50% {
-    background-color: black, url("");
+    background-color: black;
   }
   100% {
     background-image: linear-gradient(to right, black, black, transparent),
       url("../assets/images/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 120% 50%;
   }
 }
 
 body {
   animation-name: bg-image;
-  animation-duration: 7s;
+  animation-duration: 6s;
   background-image: linear-gradient(to right, black, black, transparent),
     url("../assets/images/bg.png");
   background-repeat: no-repeat;

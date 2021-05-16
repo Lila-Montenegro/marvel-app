@@ -10,6 +10,13 @@ span.marvel {
     transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
+  25% {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
   50% {
     position: absolute;
     top: 50%;
@@ -37,7 +44,7 @@ span.marvel {
   text-align: center;
 
   animation-name: moving-box;
-  animation-duration: 5s;
+  animation-duration: 6s;
 
   position: absolute;
   top: 15%;
