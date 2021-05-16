@@ -73,21 +73,26 @@ input[type="password"] {
 }
 
 .botao-login {
-  width: 24rem;
-  height: 4rem;
+  /* width: 24rem;
+  height: 4rem; */
 
   font-family: "Axiforma";
   font-size: 1.8rem;
   color: white;
 
-  margin: 1.5rem 0;
+  padding: 0.5rem 9rem;
   border-radius: 2rem;
   display: block;
   background-color: red;
+  margin-bottom: 1rem;
+}
+
+.botao-login:hover {
+  cursor: grab;
 }
 
 .no-login {
-  padding-top: 10rem;
+  margin-top: 2rem;
   margin-left: 2.5rem;
   font-family: "Axiforma";
   color: white;

@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./main/App";
+import "./index.css";
 import "./assets/fonts/Marvel/MarvelRegular-Dj83.ttf";
 import "./assets/fonts/Kastelov/Kastelov - Axiforma Black Italic.otf";
 import "./assets/fonts/Kastelov/Kastelov - Axiforma Black.otf";

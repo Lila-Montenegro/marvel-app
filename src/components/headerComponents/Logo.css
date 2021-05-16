@@ -1,0 +1,18 @@
+.box-logo {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  background-color: red;
+  color: white;
+  font-family: Marvel, sans-serif;
+
+  height: 3rem;
+  width: 8rem;
+
+  text-align: center;
+}
+
+.marvel-logo {
+  font-size: 3rem;
+}

@@ -1,0 +1,25 @@
+.logout-section {
+  margin-left: auto;
+  margin-right: 5rem;
+  margin-top: 0.8rem;
+  display: flex;
+}
+
+.logout-action {
+  font-family: "Axiforma";
+  font-size: 1.333rem;
+  text-decoration: none;
+  color: #e5e5ea;
+
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.logout-action:hover {
+  color: red;
+}
+
+.profile-picture {
+  width: 80%;
+  height: 100%;
+}

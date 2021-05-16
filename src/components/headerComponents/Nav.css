@@ -1,0 +1,18 @@
+.nav-bar {
+  margin-left: 28rem;
+  margin-top: 1rem;
+}
+
+.nav-item {
+  font-size: 2rem;
+  color: white;
+  font-family: "Axiforma";
+  text-decoration: none;
+
+  margin-left: 2rem;
+  margin-right: 4rem;
+}
+
+.nav-item:hover {
+  color: red;
+}

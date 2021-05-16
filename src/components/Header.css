@@ -1,0 +1,8 @@
+.header {
+  margin: 0;
+
+  display: flex;
+
+  border-bottom: 0.2rem solid red;
+  background-color: black;
+}

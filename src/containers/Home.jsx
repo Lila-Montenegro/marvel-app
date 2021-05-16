@@ -1,3 +1,12 @@
-import React from "react";
+import React, { Component } from "react";
+import Header from "../components/Header";
 
-export default (props) => <div>Ola</div>;
+export default class Home extends Component {
+  componentWillMount() {
+    require("./Home.css");
+  }
+
+  render() {
+    return <Header />;
+  }
+}

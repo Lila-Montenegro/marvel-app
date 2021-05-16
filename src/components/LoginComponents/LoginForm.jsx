@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { Redirect } from "react-router";
 import "./LoginForm.css";
+import { Link } from "react-router-dom";
 
 export default class LoginForm extends Component {
   state = {
@@ -35,7 +35,7 @@ export default class LoginForm extends Component {
             onChange={(e) => this.setPassword(e)}
           />
           <input type="checkbox" id="save-login" />
-          <label for="save-login" className="save-login">
+          <label htmlFor="save-login" className="save-login">
             Salvar login
           </label>
           <a href="" className="forgot-password">
@@ -45,7 +45,9 @@ export default class LoginForm extends Component {
         </form>
         <button
           className="botao-login"
-          onClick={() => window.location.assign("/#/home")}
+          onClick={() => {
+            window.location.assign("/#/home");
+          }}
         >
           Entrar
         </button>
