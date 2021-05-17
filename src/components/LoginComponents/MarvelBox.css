@@ -1,5 +1,5 @@
 span.marvel {
-  font-size: 4rem;
+  font-size: 6.667rem;
 }
 
 @keyframes moving-box {
@@ -38,10 +38,12 @@ span.marvel {
   color: white;
   font-family: Marvel, sans-serif;
 
-  height: 4rem;
-  width: 10rem;
+  padding-top: 0.3rem;
+  height: 6rem;
+  width: 15rem;
 
   text-align: center;
+  vertical-align: center;
 
   animation-name: moving-box;
   animation-duration: 6s;

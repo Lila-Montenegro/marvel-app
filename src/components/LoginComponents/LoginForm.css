@@ -16,7 +16,7 @@ h2.bem-vindo {
   font-family: "Axiforma";
   font-size: 1.33rem;
   color: #84848d;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 form {
@@ -28,6 +28,7 @@ form {
   font-family: "Axiforma";
   color: #d1d1d6;
   font-size: 1.466rem;
+  font-weight: 300;
 }
 
 .userData {
@@ -50,12 +51,17 @@ input[type="password"] {
 
 .save-login {
   font-family: "Axiforma";
+  font-size: 1rem;
+  font-weight: 500;
   color: white;
+  margin-left: 0.3rem;
 }
 
 .forgot-password {
   margin-left: 8rem;
   font-family: "Axiforma";
+  font-size: 1rem;
+  font-weight: 500;
   text-decoration: none;
   color: white;
 }
@@ -78,6 +84,7 @@ input[type="password"] {
 
   font-family: "Axiforma";
   font-size: 1.8rem;
+  font-weight: 500;
   color: white;
 
   padding: 0.5rem 9rem;
@@ -95,6 +102,8 @@ input[type="password"] {
   margin-top: 2rem;
   margin-left: 2.5rem;
   font-family: "Axiforma";
+  font-size: 1.06rem;
+  font-weight: 500;
   color: white;
 }
 

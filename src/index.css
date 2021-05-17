@@ -35,40 +35,41 @@ button {
   font-family: "Axiforma";
   src: local("Axiforma"),
     url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Black.otf);
-  font-style: italic;
+  font-weight: 900;
 }
 @font-face {
   font-family: "Axiforma";
   src: local("Axiforma"),
     url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Bold.otf);
-  font-weight: bold;
+  font-weight: 700;
 }
 @font-face {
   font-family: "Axiforma";
   src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Bold\ Italic.otf);
   font-style: italic;
-  font-weight: bold;
+  font-weight: 700;
 }
 @font-face {
   font-family: "Axiforma";
   src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Book.otf);
-  font-style: oblique;
+  font-weight: 350;
 }
 @font-face {
   font-family: "Axiforma";
   src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Book\ Italic.otf);
-  font-style: oblique, italic;
+  font-style: italic;
+  font-weight: 350;
 }
 @font-face {
   font-family: "Axiforma";
   src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ ExtraBold.otf);
-  font-weight: bolder;
+  font-weight: 800;
 }
 @font-face {
   font-family: "Axiforma";
   src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ ExtraBold\ Italic.otf);
   font-style: italic;
-  font-weight: bolder;
+  font-weight: 800;
 }
 @font-face {
   font-family: "Axiforma";
@@ -79,7 +80,6 @@ button {
   font-family: "Axiforma";
   src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Heavy\ Italic.otf);
   font-style: italic;
-  font-weight: 900;
 }
 @font-face {
   font-family: "Axiforma";
@@ -89,28 +89,29 @@ button {
 @font-face {
   font-family: "Axiforma";
   src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Light.otf);
-  font-weight: lighter;
+  font-weight: 300;
 }
 @font-face {
   font-family: "Axiforma";
   src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Light\ Italic.otf);
-  font-weight: lighter;
+  font-weight: 300;
   font-style: italic;
 }
 @font-face {
   font-family: "Axiforma";
   src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Medium.otf);
-  font-weight: normal;
+  font-weight: 500;
 }
 @font-face {
   font-family: "Axiforma";
   src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Medium\ Italic.otf);
   font-style: italic;
-  font-weight: normal;
+  font-weight: 500;
 }
 @font-face {
   font-family: "Axiforma";
   src: url(./assets/fonts/Kastelov/Kastelov\ -\ Axiforma\ Regular.otf);
+  font-weight: 400;
 }
 @font-face {
   font-family: "Axiforma";
