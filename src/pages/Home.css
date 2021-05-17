@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to right, black, black, black, transparent),
+  background-image: linear-gradient(to right, black, 90%, transparent),
     url("../assets/images/bg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;

@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "./InfoPage.css";
 import Card from "./Card";
-import BigCard from "./BigCard";
+import BigCard from "./BigCardChars";
 
 import { characters as info } from "../utils/info";
 
 import rightArrow from "../assets/images/arrow.png";
 
-export default (props) => {
+export default () => {
   const [count, setCount] = useState(0);
   const [popup, setPopup] = useState(false);
   const [popupInfo, setPopupInfo] = useState();

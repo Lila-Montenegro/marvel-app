@@ -1,6 +1,7 @@
-import React from "react";
+import React, { setState } from "react";
 import "./BigCard.css";
 import closeButton from "../assets/images/closeButton.png";
+import star from "../assets/images/star.png";
 
 export default ({ popupInfo, setPopup }) => {
   return (
@@ -8,21 +9,18 @@ export default ({ popupInfo, setPopup }) => {
       <div className="big-card">
         <img src={popupInfo.image} alt="" />
         <div className="information">
-          <h1>{popupInfo.title}</h1>
-          <span>Aparições</span>
+          <h1 className="info-title">{popupInfo.title}</h1>
+          <span className="appearances">Aparições</span>
           <ul>
-            {console.log(popupInfo.list)}
             {popupInfo.list.map((item) => (
               <li>{item}</li>
             ))}
           </ul>
-          <span>Avaliação dos Fãs</span>
+          <span className="fans-avaliation">Avaliações dos Fãs</span>
           <div>
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            {popupInfo.stars.map((item) => (
+              <img src={star} alt="" className="stars" />
+            ))}
           </div>
         </div>
         <button className="close-button" onClick={() => setPopup(false)}>

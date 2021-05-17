@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./InfoPage.css";
 import Card from "./Card";
-import BigCard from "./BigCard";
+import BigCard from "./BigCardMovies";
 
 import { movies as info } from "../utils/info";
 
@@ -24,7 +24,13 @@ export default (props) => {
           <img src={rightArrow} alt="button-to-scroll-right" />
         </button>
       )}
-      {popup && <BigCard popupInfo={popupInfo} setPopup={setPopup} />}
+      {popup && (
+        <BigCard
+          popupInfo={popupInfo}
+          setPopup={setPopup}
+          className="big-card"
+        />
+      )}
       <div className="image-scroller">
         {info
           .map((item) => (
@@ -33,6 +39,7 @@ export default (props) => {
               image={item.image}
               title={item.title}
               description={item.description}
+              className="card"
             />
           ))
           .slice(count, count + 3)}

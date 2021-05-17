@@ -1,5 +1,15 @@
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, black, black, transparent);
+  z-index: 1000;
+}
+
 .big-card {
-  background-image: linear-gradient(to right, red, red, red, red, red, black);
+  background-image: linear-gradient(to right, red, 90%, rgb(41, 37, 37));
   width: 43.93rem;
   height: 29.266rem;
   display: flex;
@@ -11,22 +21,89 @@
 
 .information {
   color: white;
+  font-family: Axiforma;
+  text-align: left;
+  margin-top: 3rem;
+  margin-left: 3rem;
 }
 
-.background-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(to right, black, black, transparent);
-  z-index: 1000;
+.info-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 0.8rem;
+  font-weight: 100;
+  margin-bottom: 1.5rem;
+}
+
+.streaming-call {
+  font-size: 00.8rem;
+  font-weight: 500;
+}
+
+.appearances {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.image-background {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  border-radius: 0.2rem;
+  width: 3.4rem;
+  height: 3.066rem;
+}
+
+.logo-disney {
+  margin-left: -0.4rem;
+  width: 120%;
+}
+
+.amazon-logos-background {
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+  display: flex;
+}
+
+.a-logo {
+  width: 3.4rem;
+  height: 3.066rem;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+.fans-avaliation {
+  font-weight: 400;
+  font-size: 1.733rem;
+  margin-top: 0.5rem;
+}
+
+.stars {
+  margin-right: 0.5rem;
+  margin-top: 0.2rem;
 }
 
 .close-button {
   float: right;
   background: transparent;
   position: relative;
+  top: 42%;
+  border: transparent;
+}
+
+.close-button-movies {
+  background: transparent;
+  position: relative;
   top: 40%;
+  right: 5%;
   border: transparent;
 }
