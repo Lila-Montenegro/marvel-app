@@ -1,0 +1,32 @@
+.big-card {
+  background-image: linear-gradient(to right, red, red, red, red, red, black);
+  width: 43.93rem;
+  height: 29.266rem;
+  display: flex;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  border-radius: 2rem;
+}
+
+.information {
+  color: white;
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, black, black, transparent);
+  z-index: 1000;
+}
+
+.close-button {
+  float: right;
+  background: transparent;
+  position: relative;
+  top: 40%;
+  border: transparent;
+}

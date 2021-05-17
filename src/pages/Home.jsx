@@ -6,12 +6,9 @@ import { Route, Switch } from "react-router";
 import Characters from "../components/Characters";
 import Movies from "../components/Movies";
 import HQs from "../components/HQs";
+import "./Home.css";
 
 export default class Home extends Component {
-  componentWillMount() {
-    require("./Home.css");
-  }
-
   render() {
     return (
       <HashRouter>

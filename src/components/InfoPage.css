@@ -1,0 +1,25 @@
+.right-scroll {
+  float: right;
+}
+
+.image-scroller {
+  display: flex;
+  position: absolute;
+  top: 18%;
+}
+
+.right-scroll {
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 95%;
+  border: transparent;
+}
+
+.chars {
+  vertical-align: center;
+}
+
+.big-card {
+  position: element(card);
+}
