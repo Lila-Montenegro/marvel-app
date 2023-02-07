@@ -1,22 +1,9 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import "./LoginForm.css";
 
-export default () => {
-  // state = {
-  //   user: this.props.user,
-  //   password: this.props.password,
-  // };
-
+const LoginForm = () => {
   const [user, setUser] = useState("");
   const [password, setPassword] = useState("");
-
-  // setUser(e) {
-  //   this.setState({ user: e.target.value });
-  // }
-
-  // setPassword(e) {
-  //   this.setState({ password: e.target.value });
-  // }
 
   return (
     <div className="login-form">
@@ -62,3 +49,5 @@ export default () => {
     </div>
   );
 };
+
+export default LoginForm;

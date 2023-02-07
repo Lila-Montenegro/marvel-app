@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./InfoPage.css";
 import Card from "./Card";
 import BigCard from "./BigCardMovies";
@@ -7,7 +7,7 @@ import { movies as info } from "../utils/info";
 
 import rightArrow from "../assets/images/arrow.png";
 
-export default (props) => {
+const Movies = () => {
   const [count, setCount] = useState(0);
   const [popup, setPopup] = useState(false);
   const [popupInfo, setPopupInfo] = useState();
@@ -47,3 +47,5 @@ export default (props) => {
     </div>
   );
 };
+
+export default Movies;

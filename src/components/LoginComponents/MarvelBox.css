@@ -54,3 +54,44 @@ span.marvel {
   transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+@media (max-width: 520px) {
+  @keyframes moving-box {
+    0% {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    25% {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    50% {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    100% {
+      position: absolute;
+      top: 15%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .box {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+}

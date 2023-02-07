@@ -3,11 +3,11 @@ import profilePicture from "../../assets/images/profile-picture.png";
 import "./Logout.css";
 import { Link } from "react-router-dom";
 
-export default (props) => (
+const Logout = () => (
   <div className="logout-section">
     <img
       src={profilePicture}
-      alt="profile picture"
+      alt="this is the profile"
       className="profile-picture"
     />
     <Link to="/" className="logout-action">
@@ -15,3 +15,5 @@ export default (props) => (
     </Link>
   </div>
 );
+
+export default Logout;

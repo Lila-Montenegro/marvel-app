@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
 
-export default (props) => (
+const Nav = () => (
   <div className="nav-bar">
     <nav>
       <Link to="/home/chars" className="nav-item">
@@ -17,3 +17,5 @@ export default (props) => (
     </nav>
   </div>
 );
+
+export default Nav;

@@ -1,9 +1,9 @@
-import React, { setState } from "react";
+import React from "react";
 import "./BigCard.css";
 import closeButton from "../assets/images/closeButton.png";
 import star from "../assets/images/star.png";
 
-export default ({ popupInfo, setPopup }) => {
+const BigCardChars = ({ popupInfo, setPopup }) => {
   return (
     <div className="background-overlay">
       <div className="big-card">
@@ -30,3 +30,5 @@ export default ({ popupInfo, setPopup }) => {
     </div>
   );
 };
+
+export default BigCardChars;

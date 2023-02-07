@@ -26,3 +26,30 @@ body {
   background-attachment: fixed;
   background-position: 120% 50%;
 }
+
+@media (max-width: 520px) {
+  @keyframes bg-image {
+    0% {
+      background-color: black;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: 300% 50%;
+    }
+    50% {
+      background-color: black;
+    }
+    100% {
+      background-image: linear-gradient(to right, black, 60%, transparent),
+        url("../assets/images/bg.png");
+
+      background-position: 50% 50%;
+    }
+  }
+
+  body {
+    background-image: linear-gradient(to right, black, 60%, transparent),
+      url("../assets/images/bg.png");
+
+    background-position: 50% 50%;
+  }
+}

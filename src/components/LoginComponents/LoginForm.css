@@ -111,3 +111,26 @@ input[type="password"] {
   text-decoration: none;
   color: red;
 }
+
+@media (max-width: 520px) {
+  .login-form {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  h2.bem-vindo {
+    font-size: 1.8rem;
+  }
+
+  .userData {
+    margin: auto;
+  }
+
+  .botao-login {
+    margin: auto;
+  }
+
+  .forgot-password-line {
+    margin-left: 20.5rem;
+  }
+}

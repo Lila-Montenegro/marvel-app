@@ -1,11 +1,11 @@
-import React, { setState } from "react";
+import React from "react";
 import "./BigCard.css";
 import closeButton from "../assets/images/closeButton.png";
 import star from "../assets/images/star.png";
 import amazonLogo from "../assets/images/amazon.png";
 import amazonLogo2 from "../assets/images/a-mazon.png";
 
-export default ({ popupInfo, setPopup }) => {
+const BigCardHQs = ({ popupInfo, setPopup }) => {
   return (
     <div className="background-overlay">
       <div className="big-card">
@@ -33,3 +33,5 @@ export default ({ popupInfo, setPopup }) => {
     </div>
   );
 };
+
+export default BigCardHQs;
